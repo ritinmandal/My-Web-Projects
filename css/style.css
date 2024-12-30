@@ -156,9 +156,9 @@ color: black;
     }
 }
 
-@media (min-width: 621px) and (max-width: 1278px) { 
+@media (min-width: 350px) and (max-width: 1278px) { 
     .abt-card img{
-        /* width: 1250px; */
+        
         width: 100%;
         max-width: 100%;
         align-items: center;
@@ -173,8 +173,11 @@ color: black;
         text-align: center;
         align-items: center;
         justify-content: center;
+        width: 100%;}
+
+    .ahead h2{
         width: 100%;
-        
+        max-width: 300px;
     }
 }
 
